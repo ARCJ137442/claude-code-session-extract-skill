@@ -1,15 +1,15 @@
 ---
 name: claude-code-session-extract
 description: |
-  Use when a user provides a Claude Code session ID or session JSONL file and needs
-  to understand and continue that work. Also triggered by phrases like
-  "恢复上下文", "接手这个 Claude Code 会话", "之前做到哪了",
-  "从 Claude Code 记录恢复", "交接", "handoff".
-  NOT when the session is from Codex (use codex-rollout-extract instead).
-  NOT when the current conversation already has sufficient context.
+  DEPRECATED — use session-extract instead.
+  This skill has been merged into the unified session-extract skill
+  which auto-detects platform (Codex vs Claude Code).
 ---
 
-# Claude Code Session Extract
+# DEPRECATED: Claude Code Session Extract
+
+> **This skill is deprecated.** Use `session-extract` instead — it auto-detects
+> the platform and handles both Codex and Claude Code sessions with a single script.
 
 ## 概述
 
